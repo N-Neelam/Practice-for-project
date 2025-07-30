@@ -1,0 +1,62 @@
+/* style.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4CAF50;
+}
+.search-container {
+  display: flex;
+  gap: 0.5rem;
+}
+.search-container input[type=\"text\"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.search-container button {
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero {
+  background-image: url('../images/home_background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+}
+.slider-section {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+.contact-info {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
