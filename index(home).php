@@ -42,10 +42,14 @@
       font-size: 1.8rem;
       font-weight: bold;
     }
+    .search-container{
+      display:flex;
+      gap:0.5rem;
+    }
     .search-container input[type="text"] {
       padding: 0.5rem;
       border: 1px solid #ccc;
-      background-color:#f3ebebff
+      background-color:#f3ebebff;
       border-radius: 4px;
     }
     .search-container button:hover {
@@ -94,14 +98,14 @@
   <div class="navbar">
     <div class="logo">DecorNest</div>
     <div>
-      <a href="#home">Home</a>
-      <a href="#about">About Us</a>
-      <a href="#explore">Explore</a>
-      <a href="#register">Register/Login</a>
+      <a href="index(home).php#home">Home</a>
+      <a href="index(home).php#about">About Us</a>
+      <a href="index(home).php#explore">Explore</a>
+      <a href="register_login.php">Register/Login</a>
     </div>
     <div class="search-container">
       <input type="text" placeholder="Search decor items...">
-      <button>Search</button>
+    <!--  <button>Search</button> --><button type="button" name="Search" class="btn btn-success w-100">Search</button> 
     </div>
   </div>
 
